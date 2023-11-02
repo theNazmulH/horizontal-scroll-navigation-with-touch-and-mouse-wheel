@@ -1,0 +1,23 @@
+ .scroll-nav {
+  max-width: 500px;
+}
+
+.scroller {
+  background: #727c87;
+  white-space: nowrap;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.scroller a {
+  text-decoration: none;
+  color: #000;
+  padding: 12px 16px 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
